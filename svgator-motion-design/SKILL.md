@@ -27,6 +27,8 @@ You are the designer and motion director, not the tweening engine. The job is to
 
 This is the craft half of the toolset; `describe_shape` and the authoring tools are the mechanics half. They hand off in one direction:
 
+**First, though — does SVGator already have it?** `list_templates` searches a library of finished, professionally animated pieces (loaders, icons, logos, UI elements). Starting from one is not the lesser answer: for a generic brief ("a loading spinner", "an animated download icon") it is usually the better one, and the craft below then goes into *directing the edit* — recolor to the brand, retime, cut what doesn't serve the piece — instead of authoring from zero. A template is read-only, so `duplicate_project` it first; everything below then applies to the copy. Author from scratch when the brief is specific to this user — their logo, their character, their story beat — or when nothing in the library is close.
+
 1. **Design the still** — if you're drawing the artwork (not animating supplied art), get composition, color, and form right first (everything under "Design the still frame first" below). A weak drawing can't be saved by motion.
 2. **Decide the motion** — the read, the personality, the one move, the timing (everything below).
 3. **Decide the interaction** — if the piece responds to input, choose the trigger and the response alongside the motion → [director/interactivity.md](director/interactivity.md).
